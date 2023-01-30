@@ -6,6 +6,10 @@ a {
   color: white;
 }
 
+@font-face {
+  font-family: odinfont;
+  src: url(../fonts/Norse-Bold.otf);
+}
 .content-main {
   align-items: center;
   justify-content: center;
