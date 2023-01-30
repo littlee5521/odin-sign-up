@@ -19,6 +19,7 @@ a {
   background-color: black;
 }
 .content-inner {
+  display: flex;
   flex: auto;
   flex-grow: 0;
   background-color: white;
@@ -32,7 +33,6 @@ a {
   flex-grow: 0;
   width: 40%;
   height: 100%;
-  background-color: blue;
 }
 .green-picture {
   flex: auto;
@@ -46,6 +46,34 @@ a {
   color: white;
   left: 30%;
   bottom: 0%;
+}
+.info {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+}
+.header {
+  flex: auto;
+  flex-grow: 0;
+  width: 100%;
+  height: 30%;
+  background-color: #f5f3f3;
+}
+.info-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 70%;
+}
+.field {
+  width: 100%;
+  height: 60%;
+  background-color: white;
+}
+.CTA {
+  width: 100%;
+  height: 40%;
+  background-color: #f5f3f3;
 }
 /*# sourceMappingURL=style.css.map */
 
