@@ -6,6 +6,14 @@ a {
   color: white;
 }
 
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
 @font-face {
   font-family: odinfont;
   src: url(../fonts/Norse-Bold.otf);
@@ -33,7 +41,7 @@ a {
   display: flex;
   flex: auto;
   flex-grow: 0;
-  width: 40%;
+  min-width: 40%;
   height: 100%;
 }
 
@@ -60,6 +68,8 @@ a {
 }
 
 .header {
+  display: flex;
+  align-items: center;
   flex: auto;
   flex-grow: 0;
   width: 100%;
@@ -78,12 +88,46 @@ a {
   width: 100%;
   height: 60%;
   background-color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .CTA {
   width: 100%;
   height: 40%;
   background-color: #f5f3f3;
+}
+
+.text {
+  max-width: 80%;
+  margin-left: 5%;
+  font-size: 1.5rem;
+}
+
+.title {
+  margin-left: 5%;
+  margin-top: 5%;
+  font-size: 1.5rem;
+  margin-bottom: 5%;
+}
+
+.form-input {
+  display: flex;
+  margin-left: 5%;
+  height: 100%;
+  width: 95%;
+  gap: 20%;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 15%;
+}
+
+.element {
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */
